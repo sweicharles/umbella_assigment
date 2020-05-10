@@ -145,6 +145,10 @@ html {
     box-shadow: 2px 4px 10px rgba(25, 25, 25, 0.7);
 }
 
+
+/* product list */
+
+
 .series-cards{
     margin: 2% 3% 3% 2%;
 }
@@ -156,33 +160,22 @@ html {
     border-color: transparent;
 }
 
-.card a{
+.price{
+    text-shadow: rgba(25, 25, 25, 0.3);
+}
+
+.card-img-overlay{
     border-radius: 7px;
     color: rgba(0, 0, 0, 0);
     transition: all 0.5s;
     transition-timing-function: ease;
 }
 
-.card a:hover{
+.card-img-overlay:hover {
     border: 0 ;
     color: snow;
     box-shadow: 2px 4px 10px rgba(25, 25, 25, 0.7);
     transform: scale(1.05); 
-}
-
-.card-img{
-    border: 0 ;
-    border-radius: 7px;
-    background-size: cover;
-    transition: all 1s;
-    transition-timing-function: ease;
-}
-
-.card-img-overlay{
-    border-radius: 7px;
-}
-
-.card-img-overlay:hover {
     background: rgba(0, 0, 0, 0.5);
     
 }
@@ -295,6 +288,7 @@ img {
     margin: 30px;
 }
 
+
 .btn-secondary{
     font-size: 13px;
     color: rgba(217, 83, 78, 0.75);
@@ -309,6 +303,26 @@ img {
 
 
 .btn-secondary:hover {
+  color: #FFF;
+  background: rgba(217, 83, 78, 0.75);
+  border: 2px solid rgba(217, 83, 78, 0.75);
+}
+
+
+.btn-primary{
+    font-size: 13px;
+    color: rgba(217, 83, 78, 0.75);
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 2px solid rgba(217, 83, 78, 0.75);
+    border-radius: 40px;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+
+}
+
+
+.btn-primary:hover {
   color: #FFF;
   background: rgba(217, 83, 78, 0.75);
   border: 2px solid rgba(217, 83, 78, 0.75);
