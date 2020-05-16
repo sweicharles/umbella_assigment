@@ -21,6 +21,3 @@ $(document).ready(function(){
     $("#myCarousel").carousel("next");
   });
 });
-
-var music = document.getElementById("myVideo");
-music.volume = 0.2;

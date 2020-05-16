@@ -45,5 +45,3 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-var music = document.getElementById("myVideo");
-music.volume = 0.2;
